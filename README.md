@@ -1,9 +1,34 @@
 # HARHARHAR
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+Five Nights at Deadline places the player in the role of a college engineering student facing the ultimate threat: an unfinished lab report due by morning.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+The objective is simple—survive the night and finish your work—but maintaining focus is anything but easy. As time passes, the player’s sanity steadily declines. Lower sanity increases hallucinations, visual distortions, and the appearance of hostile entities that attempt to force the player to fall asleep.
 
+To survive, the player must:
+
+  Manage sanity levels
+
+  Use a flashlight to repel nearby threats
+
+  Doom scroll to recover sanity (at the cost of phone battery)
+
+  Balance limited resources while completing the lab report
+
+If the phone battery runs out or the player collapses from exhaustion, the night ends—and so does the grade.
+
+## Core Mechanics
+-Sanity System
+
+Sanity decreases over time and affects visual clarity and enemy behavior.
+
+Flashlight POV
+  A restricted field of view simulates limited awareness during exhaustion.
+
+Resource Management
+  Phone battery, attention, and time must be carefully balanced.
+
+Psychological Pressure
+  The longer the night lasts, the more distorted and hostile the environment becomes.
 ## Platforms
 
 - `core`: Main module with the application logic shared by all platforms.
