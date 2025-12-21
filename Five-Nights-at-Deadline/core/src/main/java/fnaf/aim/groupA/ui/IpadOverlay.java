@@ -152,8 +152,6 @@ public class IpadOverlay {
         // Enemy blips
         shape.setProjectionMatrix(camera.combined);
         shape.begin(ShapeRenderer.ShapeType.Filled);
-        shape.setColor(Color.MAGENTA);
-        shape.circle(mapRect.x + mapRect.width / 2f, mapRect.y + mapRect.height / 2f, 10f);
 
         if (aiEnemies != null && aiEnemies.size > 0) {
             for (int i = 0; i < aiEnemies.size; i++) {
