@@ -1,5 +1,7 @@
 package fnaf.aim.groupA.maps;
 
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.Set;
 
 public final class MapIds {
@@ -21,5 +23,17 @@ public final class MapIds {
     public static final String W_LEFT  = "WINDOW_LEFT";
     public static final String W_RIGHT = "WINDOW_RIGHT";
 
+
+    // Enemy targetings
+    public static final Set<String> LEFT_WINDOWS  = Collections.singleton(W_LEFT);
+    public static final Set<String> RIGHT_WINDOWS = Collections.singleton(W_RIGHT);
+    public static final Set<String> BOTH_WINDOWS;
+
+    static {
+        HashSet<String> s = new HashSet<>();
+        s.add(W_LEFT);
+        s.add(W_RIGHT);
+        BOTH_WINDOWS = Collections.unmodifiableSet(s);
+    }
 }
 

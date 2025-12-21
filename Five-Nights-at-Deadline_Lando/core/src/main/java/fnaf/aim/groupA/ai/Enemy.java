@@ -125,4 +125,5 @@ public abstract class Enemy {
     private static float clamp01(float v) {
         return Math.max(0f, Math.min(1f, v));
     }
+
 }
