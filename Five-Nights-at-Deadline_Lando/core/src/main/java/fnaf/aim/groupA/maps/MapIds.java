@@ -27,13 +27,7 @@ public final class MapIds {
     // Enemy targetings
     public static final Set<String> LEFT_WINDOWS  = Collections.singleton(W_LEFT);
     public static final Set<String> RIGHT_WINDOWS = Collections.singleton(W_RIGHT);
-    public static final Set<String> BOTH_WINDOWS;
-
-    static {
-        HashSet<String> s = new HashSet<>();
-        s.add(W_LEFT);
-        s.add(W_RIGHT);
-        BOTH_WINDOWS = Collections.unmodifiableSet(s);
-    }
+    // Make it better than before
+    public static final Set<String> BOTH_WINDOWS =  Set.of(W_LEFT, W_RIGHT);
 }
 
